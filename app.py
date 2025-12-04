@@ -41,7 +41,7 @@ def generate():
         # print(result_url)
 
         # return jsonify({"status": "success", "textPrompt": prompt, 'audioUrl': result_url})
-        return jsonify({"status": "success", "textPrompt": prompt, 'audioUrl': 'https://yedu-music.onrender.com/songs/example.wav'})
+        return jsonify({"status": "success", "textPrompt": prompt, 'audioUrl': 'https://yedu-music.onrender.com/songs/guitar-riff.wav'})
     except Exception as e:
         print(e)
         return jsonify({"status": "error"}), 403
