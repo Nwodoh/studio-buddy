@@ -59,7 +59,7 @@ def generate():
 
         # print("result_url:", result_url)
 
-        return jsonify({"status": "success", "textPrompt": prompt, 'audioUrl': 'https://replicate.delivery/yhqm/XzpCvlZewA3fXksdzMdntOeHDUc11eJI4D7IxsWVr6EEzspXB/out.wav'})
+        return jsonify({"status": "success", "textPrompt": prompt, 'audioUrl': 'https://replicate.delivery/yhqm/Kx2Pvukfs0QtPSdYUYgO6fDs6xIBAA3tieCBGyPb1lZ5lX1rA/out.wav'})
         # return jsonify({"status": "success", "textPrompt": prompt, 'audioUrl': 'https://yedu-music.onrender.com/songs/example.wav'})
     except Exception as e:
         print(e)
